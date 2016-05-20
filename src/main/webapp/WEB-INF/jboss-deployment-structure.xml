@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jboss-deployment-structure>
+  <deployment>
+    <dependencies>
+      <module name="org.infinispan"/>
+    <!--
+      <module name="org.jboss.as.clustering.infinispan" export="true" />
+      <module name="org.wildfly.clustering.infinispan.spi" />
+      <module name="org.infinispan.commons"/>
+    -->
+    </dependencies>
+  </deployment>
+</jboss-deployment-structure>
